@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-full">
+    <main className="w-full relative">
    <Homepage/>
     </main>
   );

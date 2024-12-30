@@ -5,7 +5,7 @@ export default function page({params}) {
     const {slug} = params
 
   return (
-    <div>
+    <div className=' w-full'>
         <Gridview id={slug}/>
     </div>
   )

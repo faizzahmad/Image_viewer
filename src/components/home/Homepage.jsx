@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Homepage() {
   return (
-    <div className='w-full h-[100vh] flex items-center gap-10'>
+    <div className='w-full h-[100vh] flex items-center gap-10 '>
       <div className='w-[50%] px-10'>
        <h1 className=' headtext font-[700] text-[40px]'> F-Dev Dashboard Project Lists</h1>
 
