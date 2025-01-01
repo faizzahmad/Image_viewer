@@ -47,9 +47,9 @@ export default function Gridview({ id }) {
     "getimage" : getimage.img,
   })
   return (
-    <div className={`relative ${getimage.img ? ' overflow-y-hidden' : ' overflow-y-auto'}`} >
+    <div className={`relative h-[100vh] ${getimage.img ? ' overflow-y-hidden' : ' overflow-y-auto'}  `} >
 
-<div className={` absolute left-0 bottom-0 w-full  bg-white p-10 lg:p-0 h-[100vh] ${getimage.img ? 'block' : 'hidden'}`}>
+<div className={` fixed left-0 top-0 w-full  bg-white p-10 lg:p-0 h-[100%] ${getimage.img ? 'block' : 'hidden'}`}>
           <button className=' text-theme-text-color text-3xl fixed  left-1 top-[50%]' onClick={() => imageaction('previous-img')}> <FaChevronLeft /></button>
           <button onClick={() => imageaction()} className=' text-theme-text-color text-3xl fixed  right-[10px]  top-[10px]'><FaXmark /></button>
           <img src={getimage.img} className=' w-[100%]  '></img>
