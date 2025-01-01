@@ -43,9 +43,7 @@ export default function Gridview({ id }) {
   }
 
 
-  console.log({
-    "getimage" : getimage.img,
-  })
+
   return (
     <div className={`relative h-[100vh] ${getimage.img ? ' overflow-y-hidden' : ' overflow-y-auto'}  `} >
 
